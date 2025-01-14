@@ -104,12 +104,12 @@
 
 @media screen and (max-width: 600px){
     .mywork{
-        margin: 80px 50px;
-        gap: 50px;
+        margin: 0px 30px;
+        gap: 30px;
     }
 
     .mywork-title h1{
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .mywork-title img{
@@ -118,5 +118,11 @@
 
     .my-work-containers{
         grid-template-columns: 1fr;
+    }
+
+    .mywork-show-more{
+        padding: 15px 30px;
+        font-size: 18px;
+        margin-bottom: 30px;
     }
 }
