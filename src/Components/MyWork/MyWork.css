@@ -98,3 +98,25 @@
     gap: 30px;
     transition: 0.6s;
 }
+
+
+/* media query */
+
+@media screen and (max-width: 600px){
+    .mywork{
+        margin: 80px 50px;
+        gap: 50px;
+    }
+
+    .mywork-title h1{
+        font-size: 35px;
+    }
+
+    .mywork-title img{
+        width: 30%;
+    }
+
+    .my-work-containers{
+        grid-template-columns: 1fr;
+    }
+}
