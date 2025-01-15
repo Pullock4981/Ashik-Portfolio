@@ -1,9 +1,10 @@
 import './Hero.css'
 import profile_img from '../../assets/Ashik.jpg'
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Hero = () => {
     return (
-        <div className='hero'>
+        <div id='home-section' className='hero'>
             <img className='profile-img' src={profile_img} alt="" />
             <h1><span>I'm Ashik Mahmud,</span> frontend developer based on Bangladesh.</h1>
             <p>Hi, I'm a web developer passionate about creating engaging,
@@ -12,7 +13,7 @@ const Hero = () => {
                 seamless functionality and leave a lasting impression.</p>
             <div className="hero-action">
                 <div className="hero-contact">
-                    Contact With Me
+                    <AnchorLink className="anchor-link" offset={50} href="#contact">Contact With Me</AnchorLink>
                 </div>
                 <div className="hero-resume">
                     My Resume

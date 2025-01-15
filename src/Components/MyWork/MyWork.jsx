@@ -1,6 +1,6 @@
 import './MyWork.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
-import mywork_data from '../../assets/mywork_data'
+// import mywork_data from '../../assets/mywork_data'
 import arrow_icon from '../../assets/arrow_icon.svg'
 import p_1 from '../../assets/project_1.png'
 import p_2 from '../../assets/project_2.png'
@@ -11,7 +11,7 @@ import p_6 from '../../assets/project_6.png'
 
 const MyWork = () => {
     return (
-        <div className='mywork'>
+        <div id='my-work-section' className='mywork'>
             <div className="mywork-title">
                 <h1>My Latest work</h1>
                 <img src={theme_pattern} alt="" />

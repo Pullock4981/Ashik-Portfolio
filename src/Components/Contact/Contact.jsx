@@ -13,7 +13,7 @@ const Contact = () => {
             </div>
 
             {/* contact section */}
-            <div className="contact-section">
+            <div id='contact' className="contact-section">
                 <div className="contact-left">
                     <h1>Let's talk</h1>
                     <p>
