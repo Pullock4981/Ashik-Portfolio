@@ -8,6 +8,7 @@ import p_3 from '../../assets/project_3.png'
 import p_4 from '../../assets/project_4.png'
 import p_5 from '../../assets/project_5.png'
 import p_6 from '../../assets/project_6.png'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const MyWork = () => {
     return (
@@ -130,10 +131,14 @@ const MyWork = () => {
                     </div>
                 </div>
             </div>
-            <div className="mywork-show-more">
-                <p>Show more</p>
-                <img src={arrow_icon} alt="" />
-            </div>
+            
+            <AnchorLink className="anchor-link" href="#portfolio">
+                <div className="mywork-show-more">
+                    <p>Show more</p>
+                        <img src={arrow_icon} alt="" />
+                </div>
+            </AnchorLink>
+                
         </div>
     );
 };

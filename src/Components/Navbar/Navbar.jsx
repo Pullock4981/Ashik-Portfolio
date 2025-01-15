@@ -36,7 +36,7 @@ const Navbar = () => {
                 <li><AnchorLink className="anchor-link" href="#home-section"><p onClick={()=>setManu("home")}>Home</p></AnchorLink>{manu === "home" ? <img src={ underline_img} alt="" />:<></> }</li>
                 <li><AnchorLink className="anchor-link" offset={50} href="#about-section-here"><p onClick={()=>setManu("about")}>About Me</p></AnchorLink>{manu === "about" ? <img src={ underline_img} alt="" />:<></> }</li>
                 <li><AnchorLink className="anchor-link" offset={50} href="#my-work-section"><p onClick={()=>setManu("projects")}>Projects</p></AnchorLink>{manu === "projects" ? <img src={ underline_img} alt="" />:<></> }</li>
-                <li><AnchorLink className="anchor-link" offset={50} href="#"><p onClick={()=>setManu("portfolio")}>Portfolio</p></AnchorLink>{manu === "portfolio" ? <img src={ underline_img} alt="" />:<></> }</li>
+                <li><AnchorLink className="anchor-link" offset={50} href="#portfolio"><p onClick={()=>setManu("portfolio")}>Portfolio</p></AnchorLink>{manu === "portfolio" ? <img src={ underline_img} alt="" />:<></> }</li>
                 <li><AnchorLink className="anchor-link" offset={50} href="#contact"><p onClick={()=>setManu("contact")}>Contact</p></AnchorLink>{manu === "contact" ? <img src={ underline_img} alt="" />:<></> }</li>
             </ul>
             <div className="nav-contact"><AnchorLink className="anchor-link" offset={50} href="#contact">Contact With Me</AnchorLink></div>
