@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: space-between;
     margin: 10px 100px;
+    position: sticky;
     /* position: static; */
 }
 
