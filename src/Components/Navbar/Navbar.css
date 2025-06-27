@@ -45,6 +45,11 @@
     transition: 0.5s;
 }
 
+.nav-contact a{
+    text-decoration: none;
+    color: white;
+}
+
 .nav-contact:hover{
     transform: scale(1.05);
 }
